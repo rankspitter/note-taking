@@ -5,12 +5,12 @@ The most common way is to take the ordinal bytes of the message, convert them in
 
 
 
-# Challenge 
+### Challenge 
 
 Convert the following integer back into a message:
 
 
-# Solved
+### Solved
 
 ```python
 from Crypto.Util.number import *
@@ -21,13 +21,13 @@ print(flag)
 ```
 
 
-# Description
+### Description
 
 converts the large integer `long_number` into a byte string using the `long_to_bytes()` function provided by the `Crypto.Util.number` module.
 
 
 
-# Flag:
+### Flag:
 
 ```
 crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}
