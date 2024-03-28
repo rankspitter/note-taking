@@ -20,3 +20,9 @@ print(flag)
 
 description :
 use `bytes.fromhex()` can be used to convert hex to bytes.
+
+flag:
+
+```
+crypto{You_will_be_working_with_hex_strings_a_lot}
+```
