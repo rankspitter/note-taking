@@ -25,9 +25,7 @@ print(''.join([chr(i) for i in array]))
 
 description:
 
-```
-use list comprehesion `[chr(i) for i in array]` iterates over each integer in the `array` and converts it into its corresponding ASCII character using the `chr()` function.
-```
+use list comprehension `[chr(i) for i in array]` iterates over each integer in the `array` and converts it into its corresponding ASCII character using the `chr()` function.
 
 
 Flag :
