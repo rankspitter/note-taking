@@ -15,7 +15,7 @@ Using the below integer array, convert the numbers to their corresponding ASCII 
 ```
 
 
-solved 
+# Solved 
 
 ```python
 array = [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49, 110, 116, 52, 98, 108, 51, 125]
@@ -23,12 +23,12 @@ array = [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49,
 print(''.join([chr(i) for i in array]))
 ```
 
-description:
+# Description:
 
 use list comprehension `[chr(i) for i in array]` iterates over each integer in the `array` and converts it into its corresponding ASCII character using the `chr()` function.
 
 
-Flag :
+# Flag :
 
 ```
 crypto{ASCII_pr1nt4bl3}

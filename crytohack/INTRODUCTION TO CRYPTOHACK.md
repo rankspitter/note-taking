@@ -1,7 +1,8 @@
 
 Modern cryptography with XOR operation
 
-**Challenge code** 
+# Challenge
+
 ```python
 ords = [81, 64, 75, 66, 70, 93, 73, 72, 1, 92, 109, 2, 84, 109, 66, 75, 70, 90, 2, 92, 79]
 
@@ -28,7 +29,9 @@ __________
 
 So, `81 ^ 50` equals `99` ,represented by the character `c`
 
-Flag :
+
+# Flag :
+
 ```
 crypto{z3n_0f_pyth0n}
 ```
